@@ -55,14 +55,7 @@ function calc(str) {
 }
 
 
-
-let str = '1+(4+9)*-(6+(-1))';
-// let str='(6+(-1))';
-
-console.log("eval", eval(str))
-try {
-    console.log("compile", compile(str))
-} catch (err) {
-    console.log("catch smth", err)
+module.exports = {
+    simple,
+    compile
 }
-

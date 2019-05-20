@@ -1,0 +1,10 @@
+language: node_js
+node_js:  
+  - "node"
+install:
+  - npm install mocha
+  - npm install chai 
+  - npm install mockery
+  - npm install nyc
+script:
+  - npm test
