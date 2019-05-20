@@ -1,0 +1,19 @@
+{
+  "name": "ykpo",
+  "version": "1.0.0",
+  "description": "YKPO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lexamulat/YKPO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lexamulat/YKPO/issues"
+  },
+  "homepage": "https://github.com/Lexamulat/YKPO#readme"
+}
