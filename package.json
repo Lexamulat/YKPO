@@ -4,7 +4,7 @@
   "description": "YKPO",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
-    "mockery": "^2.1.0"
+    "mockery": "^2.1.0",
+    "nyc": "^14.1.1"
   }
 }
