@@ -8,4 +8,5 @@ describe('#compile()', function () {
         expect(compile('1+(4+9)*-(6+(-1))')).to.equal(-64)
     })
 
+
 })
